@@ -318,11 +318,6 @@ nav{
 }
 
 .category{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     padding: 25px 10px;
     border-radius: 5px;
     font-size: 14px;
@@ -331,23 +326,36 @@ nav{
     transition: transform 0.5s, background 0.5s ;
 }
 
-.category > img{
-    width: 50px;
-    margin-bottom: 10px;
-}
-
-.category:hover > img{
-    filter: invert(100%);
-}
-
-.category > small{
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
 .category:hover{
     background: var(--green-color);
     color: white;
     transform: scale(1.05);
 }
+.category > a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.category > a:hover{
+    color: white;
+}
+
+.category > a > img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.category:hover > a > img{
+    filter: invert(100%);
+}
+
+.category > a > small{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
