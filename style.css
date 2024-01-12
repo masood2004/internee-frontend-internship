@@ -14,7 +14,7 @@
 /* NAVIGATION BAR  */
 
 nav{
-    padding: 20px;
+    padding: 1.25rem;
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -30,18 +30,18 @@ nav{
 }
 
 .logo-text{
-    margin-top: -5px;
+    margin-top: -0.313rem;
 }
 
 .logo-img > img{
-    width: 65px;
+    width: 4.063rem;
     align-items: center;
     justify-content: center;
 }
 
 .logo-text > p {
-    font-size: 10px;
-    margin-top: -5px;
+    font-size: 0.625rem;
+    margin-top: -0.313rem;
 }
 
 .animated-link{
@@ -54,7 +54,7 @@ nav{
     content: '';
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 0.125rem;
     bottom: 0;
     left: 0;
     background: var(--green-color);
@@ -74,7 +74,7 @@ nav{
 }
 
 .links > ul > li{
-    margin: 0 25px;
+    margin: 0 1.563rem;
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ nav{
 /* MAIN SECTION  */
 
 .main-section{
-    height: 700px;
+    height: 43.75rem;
     display: flex;
     align-items: center;
     position: relative;
@@ -114,13 +114,13 @@ nav{
 }
 
 .main-text {
-    margin: 0 300px;
+    margin: 0 18.75rem;
     position: relative;
     color: white;
 }
 
 .main-text > h1{
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 
 .main-text > h1 >span{
@@ -134,12 +134,12 @@ nav{
 
 
 .main-text-top{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 .main-text-bottom{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .main-text-bottom > a{
@@ -151,10 +151,10 @@ nav{
     outline: none;
     border: 1px solid white;
     background-color: transparent;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border-radius: 0.313rem;
     cursor: pointer;
-    margin-top: 15px;    
+    margin-top: 0.938rem;    
     color: white;
 }
 
@@ -359,3 +359,50 @@ nav{
     margin-bottom: 8px;
 }
 
+/* USER COUND AND TEAM  */
+
+.user-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 300px;
+}
+
+.count{
+    max-width: 50%;
+    padding: 80px 60px;
+    background-color: var(--green-color);
+    color: white;
+}
+
+.count > h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.count > p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.count:nth-child(1) > div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+}
+
+
+.registered-users > p, .opening-interns > p{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.row{
+    display: flex;
+}
+
+.team-work > img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
