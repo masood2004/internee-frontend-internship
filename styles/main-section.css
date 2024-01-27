@@ -5,23 +5,20 @@
     display: flex;
     align-items: center;
     position: relative;
-    background-image: url(/images/background/image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.main-section::before {
-    content: "";
+.main-bg-img {
+    background-image: url('/images/background/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
 }
 
 .main-text {
-    margin: 0 18.75rem;
+    width: 1320px;
+    margin: 0 auto;
     position: relative;
     color: white;
 }

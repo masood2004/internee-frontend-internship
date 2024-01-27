@@ -50,16 +50,12 @@
     color: black;
 }
 
-.category>a:hover {
-    color: white;
-}
-
 .category>a>img {
     width: 50px;
     margin-bottom: 10px;
 }
 
-.category:hover>a>img {
+.category:hover>a>img, .category:hover>a>small {
     filter: invert(100%);
 }
 
