@@ -3,7 +3,8 @@
 .about-section {
     display: flex;
     height: 500px;
-    margin: 200px 300px;
+    width: 1320px;
+    margin: 150px auto;
     justify-content: space-between;
 }
 
@@ -30,37 +31,6 @@
     color: var(--green-color);
 }
 
-
-.animated-button {
-    display: inline-block;
-    padding: 10px;
-    font-size: 15px;
-    color: white;
-    background-color: var(--green-color);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: background-color 0.3s ease;
-}
-
-.animated-button:hover {
-    background-color: #27ae60;
-}
-
-.animated-button:active::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.2);
-    z-index: -1;
-    transition: background-color 0.1s ease;
-}
 
 .about-left>a {
     margin: 0 20px;

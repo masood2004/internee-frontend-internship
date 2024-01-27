@@ -4,13 +4,19 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 .footer-first-col>div {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 15px 0;
+}
+
+.footer-first-col > div >.icon{
+    margin-right: 15px;
 }
 
 .footer-col {
@@ -30,6 +36,8 @@
     color: grey;
     font-weight: 300;
 }
+
+
 
 .updates-form {
     max-width: 400px;
@@ -55,18 +63,15 @@
 }
 
 .input-group span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #eee;
     padding: 10px;
     border-right: 1px solid #ddd;
-    box-sizing: border-box;
 }
 
-.intern-icon {
-    width: 20px;
-    height: 20px;
-    display: block;
-    margin: auto;
-}
+
 
 input[type="email"] {
     flex: 1;
@@ -110,13 +115,14 @@ input[type="email"] {
 .footer-columns {
     width: 1320px;
     margin: 0 auto;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 13px;
     align-items: center;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .column {
@@ -135,7 +141,7 @@ input[type="email"] {
 }
 
 .copyright {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .links {
@@ -156,6 +162,7 @@ input[type="email"] {
 
 .social-icons>li>a>img {
     width: 20px;
+    filter: invert(100%);
 }
 
 .column-3>p>strong>a {
