@@ -1,0 +1,168 @@
+/* FOOTER  */
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.footer-first-col>div {
+    display: flex;
+    margin: 15px 0;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.footer-col>h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-col>a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 300;
+}
+
+.updates-form {
+    max-width: 400px;
+    margin: auto 0;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.updates-form h6 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input-group span {
+    background-color: #eee;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.intern-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.updates-button {
+    background-color: var(--green-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.updates-button>img {
+    filter: invert(100%);
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+.updates-button:hover {
+    background-color: #27ae60;
+}
+
+.site-footer-top{
+    width: 1320px;
+    margin: 60px auto;
+}
+
+.site-footer-bottom {
+    width: 100%;
+    background-color: var(--green-color);
+}
+
+.footer-columns {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+}
+
+.column>p {
+    text-align: center;
+}
+
+.column-1 {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.links>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons>li>a>img {
+    width: 20px;
+}
+
+.column-3>p>strong>a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    text-align: center;
+}

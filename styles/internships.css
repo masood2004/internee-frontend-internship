@@ -1,0 +1,92 @@
+/* INTERNSHIPS */
+
+.internships {
+    width: 1320px;
+    margin: 100px 300px;
+}
+
+.intern-title {
+    width: 50%;
+    margin: 50px 0;
+}
+
+.intern-title>h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.intern-title>p {
+    font-weight: 300;
+}
+
+.intern-title>p>strong {
+    color: grey;
+}
+
+.intern-img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+
+.intern-icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.intern-body-title {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.intern-location {
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.intern-location>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intern-thumb {
+    overflow: hidden;
+    max-width: 400px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.intern-apply {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.intern-body {
+    padding: 10px 20px;
+}
+
+.intern-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-gap: 60px;
+}
+
+#size-fixed {
+    height: 265px;
+    object-fit: cover;
+}
+
+.internship-btn {
+    margin: 30px 0px;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: end;
+}

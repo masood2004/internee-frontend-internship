@@ -1,0 +1,48 @@
+/* 2nd Last Bottom Section  */
+
+.sl-bottom {
+    height: 400px;
+    position: relative;
+    background-image: url(/images/background/background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.section-overlay {
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.85;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+
+.intern-every-month {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intern-every-month>div {
+    flex: 0 0 auto;
+    width: 50%;
+    color: white;
+}
+
+.intern-every-month>div>h2 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+}
+
+.intern-every-month>div>p {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

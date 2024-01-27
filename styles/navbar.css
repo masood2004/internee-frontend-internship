@@ -1,0 +1,38 @@
+/* NAVIGATION BAR  */
+
+nav {
+    padding: 1.25rem;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links>ul {
+    display: flex;
+    list-style: none;
+}
+
+.links>ul>li {
+    margin: 0 1.563rem;
+    cursor: pointer;
+}
+
+.links>ul>li>a>sup {
+    animation: fadeInAndOut 1.5s infinite linear forwards;
+}
+
+@keyframes fadeInAndOut {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
