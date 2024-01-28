@@ -8,7 +8,7 @@
 }
 
 .background-image {
-    background-image: url('/images/background/background.jpg');
+    background-image: url('../images/background/background.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(8px);
