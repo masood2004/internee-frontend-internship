@@ -1,5 +1,6 @@
 /* MAIN SECTION  */
 
+
 .main-section {
     height: 43.75rem;
     display: flex;
@@ -61,3 +62,7 @@
     margin-top: 0.938rem;
     color: white;
 }
+
+
+
+/* Responsive styles */

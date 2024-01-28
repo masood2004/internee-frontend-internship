@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 :root {
@@ -19,6 +20,10 @@
 .icon{
     width: 20px;
     height: 20px;
+}
+
+.blinking-effect{
+    animation: fadeInAndOut 1.5s infinite linear forwards;
 }
 
 /* ANIMATED LINKS  */
@@ -49,6 +54,12 @@
 
 /* LOGO  */
 
+.logo{
+    width: 100%;
+    max-width: 255px;
+    height: auto;
+}
+
 .logo > a{
     display: flex;
     align-items: center;
@@ -58,18 +69,18 @@
 }
 
 .logo-text {
-    margin-top: -0.313rem;
+    margin-top: -5px;
 }
 
 .logo-img>img {
-    width: 4.063rem;
+    width: 65px;
     align-items: center;
     justify-content: center;
 }
 
 .logo-text>p {
-    font-size: 0.625rem;
-    margin-top: -0.313rem;
+    font-size: 10px;
+    margin-top: -8px;
 }
 
 /* ANIMATED BUTTON  */
