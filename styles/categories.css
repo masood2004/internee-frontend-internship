@@ -5,6 +5,7 @@
     text-align: center;
     padding-bottom: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .categories>h1::after {
@@ -20,10 +21,11 @@
 
 .categories-block {
     width: 1320px;
-    margin: 100px auto;
+    margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     grid-gap: 20px;
+    overflow: hidden;
 }
 
 .category {
@@ -64,4 +66,44 @@
     font-weight: 600;
     margin-bottom: 8px;
     text-align: center;
+}
+
+/* RESPONSIVE DESIGN  */
+
+@media (max-width: 1325px) {
+    .categories-block{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1003px) {
+    .categories-block{
+        width: 700px;
+    }
+}
+
+@media (max-width: 725px) {
+    .categories-block{
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 625px){
+    .categories-block{
+        width: 500px;
+    }
+}
+
+@media (max-width: 515px) {
+    .categories-block{
+        width: 400px;
+    }
+}
+
+@media (max-width: 410px){
+    .categories > h1{
+        font-size: 30px;
+        overflow: hidden;
+    }
 }
