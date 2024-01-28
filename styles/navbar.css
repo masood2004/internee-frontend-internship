@@ -172,10 +172,30 @@ header {
     header {
         width: 400px;
     }
+    .logo-text h1 {
+        font-size: 20px;
+    }
+    .logo-text p{
+        margin-top: -2px;
+        font-size: 7px;
+    }
+    .logo-img img {
+        width: 50px;
+    }
 }
 
 @media (max-width: 410px) {
     header {
         width: 350px;
+    }
+    .logo-text h1 {
+        font-size: 20px;
+    }
+    .logo-text p{
+        margin-top: -2px;
+        font-size: 7px;
+    }
+    .logo-img img {
+        width: 50px;
     }
 }

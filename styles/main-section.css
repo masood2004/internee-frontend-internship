@@ -2,7 +2,7 @@
 
 
 .main-section {
-    height: 43.75rem;
+    height: 700px;
     display: flex;
     align-items: center;
     position: relative;
@@ -25,7 +25,7 @@
 }
 
 .main-text>h1 {
-    font-size: 4.375rem;
+    font-size: 70px;
 }
 
 .main-text>h1>span {
@@ -39,12 +39,12 @@
 
 
 .main-text-top {
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .main-text-bottom {
-    font-size: 1.125rem;
+    font-size: 18px;
 }
 
 .main-text-bottom>a {
@@ -66,3 +66,90 @@
 
 
 /* Responsive styles */
+
+
+@media (max-width: 1325px) {
+    .main-text{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1003px) {
+    .main-text{
+        width: 700px;
+    }
+    .main-text > h1{
+        font-size: 55px;
+    }
+    .main-text-top {
+        font-size: 15px;
+    }
+    .main-text-bottom{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 725px) {
+    .main-text{
+        width: 600px;
+    }
+    .main-text > h1{
+        font-size: 50px;
+    }
+    .main-text-top {
+        font-size: 15px;
+    }
+    .main-text-bottom{
+        font-size: 13px;
+    }
+    .main-section{
+        height: 650px;
+    }
+}
+
+
+@media (max-width: 625px){
+    .main-text{
+        width: 500px;
+    }
+    .main-text > h1{
+        font-size: 40px;
+    }
+    .main-text-top {
+        font-size: 13px;
+    }
+    .main-text-bottom{
+        font-size: 11px;
+    }
+    .main-section{
+        height: 500px;
+    }
+}
+
+@media (max-width: 515px) {
+    .main-text{
+        width: 400px;
+    }
+    .main-text > h1{
+        font-size: 30px;
+    }
+    .main-text-top {
+        font-size: 12px;
+    }
+    .main-text-bottom{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 410px){
+    .main-text{
+        width: 350px;
+    }
+    .main-section{
+        height: 400px;
+    }
+    .animated-button{
+        font-size: 12px;
+        padding: 7px;
+    }
+}
