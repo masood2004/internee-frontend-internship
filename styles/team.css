@@ -8,7 +8,8 @@
 }
 
 .count {
-    max-width: 50%;
+    flex: 0 0 auto;
+    width: 50%;
     padding: 80px 60px;
     background-color: var(--green-color);
     color: white;
@@ -38,11 +39,159 @@
 }
 
 .row-team {
+    max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.team-work>img {
+.team-work {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.image-thumb {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.team-work>.image-thumb>img {
     display: block;
     max-width: 100%;
     object-fit: cover;
+}
+
+/* RESPONSIVE DESIGN  */
+
+@media (max-width: 1325px) {
+    .team-work-con {
+        width: 1000px;
+    }
+
+    .count>h2 {
+        font-size: 25px;
+    }
+
+    .count>p {
+        font-size: 15px;
+    }
+
+    .registered-users>p,
+    .opening-interns>p {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .count:nth-child(1)>div {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1003px) {
+    .team-work-con {
+        width: 700px;
+    }
+
+    .count>h2 {
+        font-size: 18px;
+    }
+
+    .count>p {
+        font-size: 12px;
+    }
+
+    .registered-users>p,
+    .opening-interns>p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .registered-users>span,
+    .opening-interns>span {
+        font-size: 10px;
+    }
+
+    .registered-users,
+    .opening-interns {
+        line-height: 18px;
+    }
+
+    .count:nth-child(1)>div {
+        margin-top: 20px;
+    }
+
+    .count {
+        padding: 40px 40px;
+    }
+}
+
+@media (max-width: 725px) {
+    .team-work-con {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-work,
+    .count {
+        width: 100%;
+    }
+
+    .count {
+        padding: 80px 60px;
+    }
+
+    .count>h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .count>p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .registered-users,
+    .opening-interns {
+        line-height: normal;
+    }
+}
+
+
+@media (max-width: 625px) {
+    .team-work-con{
+        width: 500px;
+    }
+    .count>h2 {
+        font-size: 30px;
+    }
+    .count>p {
+        font-size: 18px;
+    }
+    .count {
+        padding: 70px 50px;
+    }
+}
+
+@media (max-width: 515px) {
+    .team-work-con{
+        width: 400px;
+    }
+    .count>h2 {
+        font-size: 22px;
+    }
+    .count>p {
+        font-size: 12px;
+    }
+    .registered-users>p,
+    .opening-interns>p {
+        font-size: 30px;
+        margin-bottom: -15px;
+    }
+}
+
+@media (max-width: 410px) {
+    .team-work-con{
+        width: 350px;
+    }
 }
