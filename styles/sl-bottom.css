@@ -49,3 +49,35 @@
     line-height: 1.5;
     text-align: left;
 }
+
+
+/* RESPONSIVE DESIGN  */
+
+@media (max-width: 1003px) {
+    .content > h1{
+        font-size: 32px;
+    }
+
+    .content > p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 725px) {
+    .content > h1{
+        font-size: 25px;
+    }
+    .content > p{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 625px){
+    .content > h1{
+        font-size: 22px;
+    }
+    .content > p{
+        font-size: 13px;
+    }
+}
