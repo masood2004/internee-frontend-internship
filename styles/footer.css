@@ -15,7 +15,7 @@
     margin: 15px 0;
 }
 
-.footer-first-col > div >.icon{
+.footer-first-col>div>.icon {
     margin-right: 15px;
 }
 
@@ -102,7 +102,7 @@ input[type="email"] {
     background-color: #27ae60;
 }
 
-.site-footer-top{
+.site-footer-top {
     width: 1320px;
     margin: 60px auto;
 }
@@ -172,4 +172,89 @@ input[type="email"] {
 
 .social-icons {
     text-align: center;
+}
+
+
+/* RESPONSIVE DESIGN  */
+
+
+@media (max-width: 1325px) {
+    .site-footer-top {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1003px) {
+    .site-footer-top {
+        width: 700px;
+    }
+
+    .updates-form {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 725px) {
+    .site-footer-top {
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 625px) {
+    .site-footer-top {
+        width: 500px;
+        margin: 60px auto;
+    }
+
+    .footer-first-col {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-first-col > div {
+        margin: 6px auto;
+    }
+
+    .footer-col {
+        margin: 30px auto;
+        width: 100%;
+        max-width: 110px;
+    }
+
+    .updates-form {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 515px) {
+    .site-footer-top {
+        width: 400px;
+    }
+    .logo-bottom-text > h1{
+        font-size: 30px;
+    }
+    .logo-bottom-text > p{
+        font-size: 10px;
+        margin-top: -5px;
+    }
+    .updates-form {
+        max-width: 370px;
+    }
+}
+
+@media (max-width: 410px) {
+    .site-footer-top {
+        width: 350px;
+    }
+    .updates-form {
+        max-width: 344px;
+    }
+    input[type="email"]{
+        font-size: 12px;
+    }
 }
