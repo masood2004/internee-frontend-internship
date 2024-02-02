@@ -1,0 +1,99 @@
+.form-div{
+    margin: 100px auto;
+    flex: 0 0 auto;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+}
+
+form{
+    box-sizing: border-box;
+}
+
+form > h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.first-name{
+    margin-right: 44px;
+}
+
+.first-name, .email{
+    flex: 0 0 auto;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first-name>label, .email>label, .message>label{
+    margin: 10px 0;
+    margin-right: 10px
+}
+
+.first-name>input, .email>input{
+    border-radius: 30px;
+    background: #f0f8ff;
+    border: none;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.message{
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.message>textarea{
+    border-radius: 30px;
+    background: #f0f8ff;
+    border: none;
+    padding: 20px;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+.button{
+    flex: 0 0 auto;
+    margin: 0 auto;
+}
+.button > button {
+    background: #2ecc71;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN  */
+
+
+@media (max-width: 1047px) {
+    .first-name, .email{
+        width: 46%;
+    }
+}
+
+@media (max-width: 785px) {
+    .first-name, .email{
+        width: 45%;
+    }
+}
+
+@media (max-width: 628px) {
+    .first-name, .email{
+        width: 100%;
+    }
+}
